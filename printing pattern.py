@@ -40,7 +40,7 @@ output:
 # # # # 
 
 
-5. #printing reverse star pattern 
+4. #printing reverse star pattern 
     n = int(input())
 
 for i in range(n):
@@ -56,7 +56,7 @@ output:
 * 
 
 
-6. #printing rigth star triangle   
+5. #printing rigth star triangle   
      n = int(input())
 space = n-1
 start= 1
@@ -78,7 +78,7 @@ output:
 * * * * * 
 
 
-7. #printing triangle numbers
+6. #printing triangle numbers
      n = int(input())
 space = n-1
 start= 1
@@ -100,7 +100,7 @@ output:
 1 2 3 4 5 
 
 
-8. #printing sum of previous number
+7. #printing sum of previous number
 	n = int(input())
 space = n-1
 start= 1
@@ -123,7 +123,7 @@ output:
 7 8 9 10 
 
 
-9. #printing right star triangle  
+8. #printing right star triangle  
    n = int(input())
 space = n-1
 start= 1
