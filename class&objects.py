@@ -135,3 +135,60 @@ elif password != actualpassword:
 else:
     print("successfuly looged in")
 
+
+Classes and Objects  (Student details)
+
+class Box:
+   def __init__(self, currentName, currentRollNo, currentdbmsMarks, currentPythonMarks, currentCMarks, currentOSMarks, currentCNMarks):
+       self.name = currentName
+       self.rollNo = currentRollNo
+       self.dbmsMarks = currentdbmsMarks
+       self.pythonMarks = currentPythonMarks
+       self.cMarks = currentCMarks
+       self.osMarks = currentOSMarks
+       self.cnMarks = currentCNMarks
+      
+   def printDetails(self):
+       print(self.name, self.rollNo, self.dbmsMarks, self.pythonMarks, self.cMarks, self.osMarks, self.cnMarks)
+      
+
+
+student1 = Box("Harika", "5A1", 78, 67, 77, 89, 46)
+student2 = Box("Swapna", "5A2", 38, 65, 97, 59, 41)
+student3 = Box("Sushma", "5A3", 88, 95, 47, 89, 31)
+
+
+student1.printDetails()
+student2.printDetails()
+student3.printDetails()
+      
+
+
+Classes and objects (Amazon card)
+
+class Card:
+   def __init__(self, currId, currImageUrl, currDeviceType, currPrice, curRating):
+       self.id = currId
+       self.imageUrl = currImageUrl
+       self.deviceType = currDeviceType
+       self.price = currPrice
+       self.rating = curRating
+      
+   def printDetails(self):
+       print("Product -", self.id, ":")
+       print("imageUrl:", self.imageUrl)
+       print("deviceType:", self.deviceType)
+       print("price:", self.price)
+       print("rating:", self.rating)
+      
+      
+mobile = Card(1, "Dummy-url 1", "Mobile", 56000, 4.5)
+laptop = Card(2, "Dummy-url 2", "Laptop", 94000, 4.8)
+watch = Card(3, "Dummy-url 3", "Smart-watch", 18000, 3.5)
+
+
+mobile.printDetails()
+print()
+laptop.printDetails()
+print()
+watch.printDetails()
